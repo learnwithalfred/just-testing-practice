@@ -1,56 +1,39 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Jest Practice
 
-# Project Name
-
-> Description the project.
-
+> In this exercise, we will write a few practical tests for JavaScript functions using the Jest library. We should make sure we follow the AAA pattern to make your tests easier for other developers to read and understand. We will also try to use the TDD approach in practice
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- JAVASCRIPT
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple example steps.**
 
 ### Prerequisites
 
+- Node
+- Git
+- Code Editor
+
 ### Setup
+
+- Clone the repository
+- Change directory into the project folder
+- Open project with text editor to view changes
 
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
+- Install dependencies `npm install`
 
 
 
-## Authors
+👤 **Alfred Boateng**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@learnwithalfred](https://github.com/learnwithalfred)
+- Twitter: [@kb_alfred](https://twitter.com/kb_alfred)
+- LinkedIn: [Alfred Boateng](https://www.linkedin.com/in/alfred-boateng-704670138/)
 
 ## 🤝 Contributing
 
@@ -64,9 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Project Design and inspiration from [Microverse Bootcamp](https://www.microverse.org)
 
 ## 📝 License
 
