@@ -8,8 +8,10 @@ describe('Reverse a passed in string', () => {
     // trow error
     expect(() => {
       reverseString(input);
-    }).toThrow('Only string input is accepted');
+    }).toThrowError(Error('Only string input is accepted'));
   });
+
+
   test('Input should not be null', () => {
     // if user pass in no input
     const input = '';
@@ -17,7 +19,7 @@ describe('Reverse a passed in string', () => {
     // trow error
     expect(() => {
       reverseString(input);
-    }).toThrow('Function expect an argument');
+    }).toThrowError(Error('Function expect an argument'));
   });
 
   test('Should reverse string', () => {
