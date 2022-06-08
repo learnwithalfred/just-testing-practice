@@ -1,26 +1,18 @@
 const reverseString = require('../src/reverseString.js');
 
 describe('Reverse a passed in string', () => {
-  test('input should be a string', () => {
-    // assuming user passed in number
-    const input = 5678;
-
-    // trow error
-    expect(() => {
-      reverseString(input);
-    }).toThrowError(Error('Only string input is accepted'));
-  });
 
 
-  test('Input should not be null', () => {
-    // if user pass in no input
+  test('When passing arguments ensure that the length is greater that 0', () => {
+    // if user pass a number less that 1
     const input = '';
 
-    // trow error
+    // it should trow an error
     expect(() => {
       reverseString(input);
-    }).toThrowError(Error('Function expect an argument'));
+    }).toThrowError(Error('String length must be greater that 0'));
   });
+
 
   test('Should reverse string', () => {
     // if user pass in a string

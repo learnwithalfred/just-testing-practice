@@ -1,6 +1,5 @@
 const reverseString = (str) => {
-  if (!str.length) throw Error('Reverse string cannot be empty');
-  if (typeof str !== String) throw Error('Reverse string must be string');
+  if (str.length < 1) throw Error('String length must be greater that 0');
   return str.split('').reverse().join('');
 };
 
