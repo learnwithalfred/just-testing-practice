@@ -19,7 +19,7 @@ describe('Calculate length of string', () => {
     // it should trow an error
     expect(() => {
       stringLength(input);
-    }).toThrow('string length must be greater that 0');
+    }).toThrowError(Error('String length must be greater that 0'));
   });
 
   test('String length must be less that or equal to 10', () => {
@@ -29,6 +29,6 @@ describe('Calculate length of string', () => {
     // trow and error
     expect(() => {
       stringLength(input);
-    }).toThrow('string length must be less or equal to 10');
+    }).toThrowError(Error('string length must be less than 10'));
   });
 });
