@@ -1,0 +1,23 @@
+{
+  "name": "just-testing-practice",
+  "version": "1.0.0",
+  "description": "> In this exercise, we will write a few practical tests for JavaScript functions using the Jest library. We should make sure we follow the AAA pattern to make your tests easier for other developers to read and understand. We will also try to use the TDD approach in practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnwithalfred/just-testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learnwithalfred/just-testing-practice/issues"
+  },
+  "homepage": "https://github.com/learnwithalfred/just-testing-practice#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
